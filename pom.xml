@@ -55,6 +55,21 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <dependency>
+            <groupId>io.pkts</groupId>
+            <artifactId>pkts-core</artifactId>
+            <version>3.0.7</version>
+            <type>jar</type>
+        </dependency>
+
+        <dependency>
+            <groupId>io.pkts</groupId>
+            <artifactId>pkts-streams</artifactId>
+            <version>3.0.7</version>
+            <type>jar</type>
+        </dependency>
+
     </dependencies>
 
     <build>
