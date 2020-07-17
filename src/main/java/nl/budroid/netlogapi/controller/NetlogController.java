@@ -19,8 +19,6 @@ public class NetlogController {
     @GetMapping
     public String getWoefha() {
         String pcapfile = System.getProperty("user.dir") + "/captures/network.pcap";
-        System.out.println(pcapfile);
-
         try {
             PcapParser.parse(pcapfile);
         } catch (IOException e) {
